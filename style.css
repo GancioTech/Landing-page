@@ -25,7 +25,7 @@ header .logo:hover {
     color: #3882f6;
 }
 
-header .container{
+header .header-container{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -41,4 +41,58 @@ header a {
     color: #e5e7eb;     
 }
 
+.img-container img {
+    height: auto;
+    width: 600px;
+}
 
+.hero {
+    font-size: 36px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+.Vamos{
+    background-color: #3882f6;
+    border: 0;
+    color: #f9faf8;
+    margin-left: 150px;
+    font-size: 18px;
+}
+
+.vision {
+    display: flex;
+    justify-content: space-between;
+}
+
+.vision .container {
+   color: #e5e7eb; 
+   font-size: 18px;
+}
+
+#quienes-somos {
+    background-color: #3882f6;
+    font-size: 36px;
+    font-weight: bold;
+    color: #1f2937;
+    align-items: center;
+    justify-content: center;
+}
+
+#quienes-somos .container {
+    padding-bottom: 0px;
+}
+
+li {
+    list-style: none;
+}
+
+.caracteristicas {
+    display: flex;
+    justify-content: center;
+}
+
+.card  p{
+    
+    align-items: center;
+}
